@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="background-color:#7FFF00; width: 50%;">
+        <h2 style="color:#006400;">Reading Cookies</h2>
+
+        <form action="" name="cookieFrm">
+            <!--write value to store as cookie in Name box-->
+            Name:
+            <input type="text" name="nameVal" />
+            <br>
+            <br> Class:
+            <input type="text" name="cls" />
+            <br>
+            <br> Subject:
+            <input type="text" name="sub" />
+
+            <br>
+            <br>
+
+            <!-- Button for set cookies-->
+            <input type="button" value="Set Cookie" onclick="setCookies();" />
+
+            <!-- Button for show cookies-->
+            <input type="button" value="Restore previous value using Cookie" onclick="showCookies();" />
+        </form>
+        <span id="ShowC"> </span>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
